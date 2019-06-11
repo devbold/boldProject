@@ -3,3 +3,11 @@
 $material-icons-font-path: '~material-icons/iconfont/'; // Material Icons
 @import '~material-icons/iconfont/material-icons.scss'; // Material Icons
 @import "~@angular/material/prebuilt-themes/indigo-pink.css"; // Material Custom Theme
+@import './scss/_spaces.scss', //spaces
+        './scss/_variables.scss', //variables
+        './scss/_type.scss', //type
+        './scss/_mixins.scss', //mixins
+        './scss/_colors.scss', //colors
+        './scss/_helpers.scss', //helpers
+        './scss/_fonts.scss', //fonts
+        './scss/_material-custom-theme.scss'; //material-custom-theme
