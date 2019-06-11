@@ -1,5 +1,20 @@
-<button mat-button [matMenuTriggerFor]="menu">Menu</button>
-<mat-menu #menu="matMenu">
-  <button mat-menu-item>Save data</button>
-  <button mat-menu-item>Fetch data</button>
-</mat-menu>
+<div class="container-fluid">
+  <div class="row">
+
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <span>BOLD</span>
+        <span class="example-spacer"></span>
+        <div class="marginright40"></div>
+    
+        <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Save data</button>
+          <button mat-menu-item>Fetch data</button>
+        </mat-menu>
+    
+      </mat-toolbar-row>
+    </mat-toolbar>
+
+  </div>
+</div>
