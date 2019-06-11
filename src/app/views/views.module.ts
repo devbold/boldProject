@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 // App Components
+import { ViewsComponent } from './views.component';
 import { RecipiesComponent } from './recipies/recipies.component';
 import { RecipeListComponent } from './recipies/recipe-list/recipe-list.component';
 import { RecipeItemComponent } from './recipies/recipe-list/recipe-item/recipe-item.component';
@@ -10,6 +11,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 
 @NgModule({
   declarations: [
+    ViewsComponent,
     RecipiesComponent,
     RecipeListComponent,
     RecipeDetailComponent,
